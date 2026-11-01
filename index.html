@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080d18">
+<title>PROJECT NEXUS</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080d18;color:#eaf2ff;font-family:Arial,sans-serif}
+header{padding:24px 20px;border-bottom:1px solid #1c2b42}
+.logo{font-size:25px;font-weight:800;letter-spacing:3px;color:#65baff}
+.tag{font-size:10px;letter-spacing:3px;color:#8298b5;margin-top:7px}
+main{max-width:850px;margin:auto;padding:22px 17px}
+.welcome{margin:24px 0}
+.welcome h1{font-size:29px;margin-bottom:8px}
+.muted{color:#91a5bf;font-size:14px;line-height:1.6}
+.panel{background:linear-gradient(135deg,#142a48,#101a2b);border:1px solid #25476c;border-radius:17px;padding:22px;margin:18px 0}
+.status{color:#66e4b0;font-size:12px}
+h2{font-size:19px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card{background:#111d2e;border:1px solid #263b56;border-radius:14px;padding:17px}
+.card h3{font-size:15px}
+.card p{font-size:12px;color:#9aacc4;line-height:1.5}
+button{background:#1679d5;color:white;border:0;padding:12px 16px;border-radius:9px;font-weight:bold;cursor:pointer}
+button.secondary{background:#1d3049;border:1px solid #345474}
+.price{font-size:24px;font-weight:bold;color:#70baff}
+section{margin-top:30px}
+footer{text-align:center;padding:28px;color:#71849d;font-size:11px}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.welcome h1{font-size:25px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">NEXUS</div>
+  <div class="tag">AI CENTRAL COMMAND</div>
+</header>
+<main>
+  <div class="welcome">
+    <div class="status">● SYSTEM INTERFACE READY</div>
+    <h1>Welcome to NEXUS</h1>
+    <p class="muted">One intelligence. One command center. A smarter future.</p>
+  </div>
+
+  <div class="panel">
+    <div class="status">PROJECT NEXUS / GLOBAL PLATFORM</div>
+    <h2>Intelligence at your command.</h2>
+    <p class="muted">Platform AI untuk individu, profesional, dan perusahaan di seluruh dunia.</p>
+    <button onclick="alert('NEXUS AI akan dihubungkan ke backend pada tahap berikutnya.')">Explore NEXUS AI</button>
+  </div>
+
+  <section>
+    <h2>Command Center</h2>
+    <div class="grid">
+      <div class="card"><h3>◈ NEXUS AI</h3><p>Asisten kecerdasan buatan.</p></div>
+      <div class="card"><h3>▦ Dashboard</h3><p>Ringkasan aktivitas dan informasi.</p></div>
+      <div class="card"><h3>⌘ Business</h3><p>Manajemen operasional bisnis.</p></div>
+      <div class="card"><h3>◉ Analytics</h3><p>Analisis dan laporan aktivitas.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Membership Plans</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>NEXUS FREE</h3>
+        <div class="price">Rp0</div>
+        <p>Dashboard dasar dan akses AI terbatas.</p>
+        <button class="secondary" onclick="alert('Pendaftaran akan tersedia setelah sistem akun dibuat.')">Free Access</button>
+      </div>
+      <div class="card">
+        <h3>NEXUS PRO</h3>
+        <div class="price">Rp149.000</div>
+        <p>Fitur AI lanjutan dan analisis lebih lengkap.</p>
+        <button onclick="alert('Pembayaran Pro belum diaktifkan.')">Explore Pro</button>
+      </div>
+      <div class="card">
+        <h3>ENTERPRISE</h3>
+        <div class="price">Custom</div>
+        <p>Solusi AI dan manajemen untuk perusahaan.</p>
+        <button class="secondary" onclick="alert('Enterprise akan tersedia pada tahap berikutnya.')">Explore Enterprise</button>
+      </div>
+      <div class="card">
+        <h3>EVORA GROUP</h3>
+        <div class="price">Special Access</div>
+        <p>Pusat kendali khusus organisasi EVORA GROUP.</p>
+        <button class="secondary" onclick="alert('Akses organisasi memerlukan verifikasi admin.')">Organization</button>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>PROJECT NEXUS © 2026 · POWERING A SMARTER FUTURE</footer>
+</body>
+</html>
